@@ -1,0 +1,36 @@
+
+header{
+  text-align: center;
+  color: white;
+  background-color: darkgrey;
+}
+.lang{
+  background-color: pink;
+}
+.long{
+  background-color: green;
+}
+.ling{
+  background-color: red;
+}
+@media screen and (min-width:700){
+.tips{
+grid-template-columns: 1fr 1fr;
+}
+}
+
+
+@media screen and (min-width: 760px){
+.tips {
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@media screen and (min-width: 1000px){
+.tips{
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+}
